@@ -1,0 +1,17 @@
+{
+  "dataset": "CIFAR-10",
+  "source": "https://cave.cs.toronto.edu/kriz/cifar-10-binary.tar.gz",
+  "source_md5": "c32a1d4ab5d03f1284b67883e8d87530",
+  "split_seed": 2026,
+  "train_count": 10000,
+  "valid_count": 2000,
+  "test_count": 10000,
+  "train_valid_source": "official training split, disjoint stratified subsets",
+  "test_source": "official test split",
+  "normalization": "pixel/127.5-1",
+  "files": {
+    "test.pt": "ece434f9d931d5d7153665161e939989d535ba0f1d32c4406f28dcb52681ee9d",
+    "train.pt": "40b3775633efcc588d5ce4470700cbbdcac4d5e5e5ab8e7f128155c1d948a987",
+    "valid.pt": "6d6834aefa47bff17bfc83fe767036962f92594a4c12ccfd40de889bc8e6ef7a"
+  }
+}
